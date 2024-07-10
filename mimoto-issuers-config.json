@@ -6,7 +6,7 @@
         {
           "name": "UIN, VID, AID",
           "logo": {
-            "url": "https://${mosip.api.public.host}/inji/mosip-logo.png",
+            "url": "https://api-internal.ltsstaging.fayda.et/inji/mosip-logo.png",
             "alt_text": "fayda logo"
           },
           "title": "Download Fayda Credentials via OTP",
@@ -16,7 +16,7 @@
         {
           "name": "UIN, VID, AID",
           "logo": {
-            "url": "https://${mosip.api.public.host}/inji/mosip-logo.png",
+            "url": "https://api-internal.ltsstaging.fayda.et/inji/mosip-logo.png",
             "alt_text": "ﺶﻋﺍﺭ ﻡﻮﺴﻴﺑ"
           },
           "title": "ﻖﻣ ﺐﺘﻧﺰﻴﻟ ﺐﻳﺎﻧﺎﺗ ﺎﻌﺘﻣﺍﺩ MOSIP ﻊﺑﺭ OTP",
@@ -26,7 +26,7 @@
         {
           "name": "UIN, VID, AID",
           "logo": {
-            "url": "https://${mosip.api.public.host}/inji/mosip-logo.png",
+            "url": "https://api-internal.ltsstaging.fayda.et/inji/mosip-logo.png",
             "alt_text": "मोसिप लोगो"
           },
           "title": "OTP के माध्यम से MOSIP क्रेडेंशियल डाउनलोड करें",
@@ -36,7 +36,7 @@
         {
           "name": "UIN, VID, AID",
           "logo": {
-            "url": "https://${mosip.api.public.host}/inji/mosip-logo.png",
+            "url": "https://api-internal.ltsstaging.fayda.et/inji/mosip-logo.png",
             "alt_text": "mosip ಲೋಗೋ"
           },
           "title": "OTP ಮೂಲಕ MOSIP ರುಜುವಾತುಗಳನ್ನು ಡೌನ್ಲೋಡ್ ಮಾಡಿ",
@@ -46,7 +46,7 @@
         {
           "name": "UIN, VID, AID",
           "logo": {
-            "url": "https://${mosip.api.public.host}/inji/mosip-logo.png",
+            "url": "https://api-internal.ltsstaging.fayda.et/inji/mosip-logo.png",
             "alt_text": "mosip சின்னம்"
           },
           "title": "OTP வழியாக MOSIP சான்றுகளைப் பதிவிறக்கவும்",
@@ -56,7 +56,7 @@
         {
           "name": "UIN, VID, AID",
           "logo": {
-            "url": "https://${mosip.api.public.host}/inji/mosip-logo.png",
+            "url": "https://api-internal.ltsstaging.fayda.et/inji/mosip-logo.png",
             "alt_text": "logo ng mosip"
           },
           "title": "I-download ang Mga Kredensyal ng MOSIP sa pamamagitan ng OTP",
@@ -73,7 +73,7 @@
         {
           "name": "e-Signet",
           "logo": {
-            "url": "https://${mosip.api.public.host}/inji/mosip-logo.png",
+            "url": "https://api-internal.ltsstaging.fayda.et/inji/mosip-logo.png",
             "alt_text": "mosip-logo"
           },
           "title": "Fayda Digital ID Credential",
@@ -93,7 +93,7 @@
         {
           "name": "e-Signet",
           "logo": {
-            "url": "https://${mosip.api.public.host}/inji/mosip-logo.png",
+            "url": "https://api-internal.ltsstaging.fayda.et/inji/mosip-logo.png",
             "alt_text": "मोसिप लोगो"
           },
           "title": "राष्ट्रीय पहचान विभाग",
@@ -113,7 +113,7 @@
         {
           "name": "e-Signet",
           "logo": {
-            "url": "https://${mosip.api.public.host}/inji/mosip-logo.png",
+            "url": "https://api-internal.ltsstaging.fayda.et/inji/mosip-logo.png",
             "alt_text": "mosip லோகோ"
           },
           "title": "தேசிய அடையாளத் துறை",
@@ -123,7 +123,7 @@
         {
           "name": "e-Signet",
           "logo": {
-            "url": "https://${mosip.api.public.host}/inji/mosip-logo.png",
+            "url": "https://api-internal.ltsstaging.fayda.et/inji/mosip-logo.png",
             "alt_text": "logo ng mosip"
           },
           "title": "National Identity Department",
@@ -140,11 +140,11 @@
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
       "authorization_endpoint": "https://esignet.ltsstaging.fayda.et/authorize",
       "authorization_audience": "https://${mosip.esignet.host}/v1/esignet/oauth/v2/token",
-      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/ESignet",
-      "proxy_token_endpoint": "https://${mosip.esignet.host}/v1/esignet/oauth/v2/token",
-      "credential_endpoint": "https://${mosip.esignet.host}/v1/esignet/vci/credential",
+      "token_endpoint": "https://api-internal.ltsstaging.fayda.et/v1/mimoto/get-token/ESignet",
+      "proxy_token_endpoint": "https://esignet.ltsstaging.fayda.et/v1/esignet/oauth/v2/token",
+      "credential_endpoint": https://esignet.ltsstaging.fayda.et/v1/esignet/vci/credential",
       "credential_type": ["VerifiableCredential", "MOSIPVerifiableCredential"],
-      "credential_audience": "https://${mosip.esignet.host}",
+      "credential_audience": "https://esignet.ltsstaging.fayda.et",
       "enabled": "true"
     },
     {

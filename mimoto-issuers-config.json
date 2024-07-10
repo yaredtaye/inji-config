@@ -132,7 +132,7 @@
         }
       ],
       "protocol": "OpenId4VCI",
-      "client_id": "419258",
+      "client_id": "343190",
       "client_alias": "mpartner-default-mimotooidc",
       "scopes_supported": ["mosip_identity_vc_ldp"],
       "additional_headers": { "Accept": "application/json" },

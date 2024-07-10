@@ -139,7 +139,7 @@
       ".well-known": "https://esignet.ltsstaging.fayda.et/.well-known/openid-credential-issuer?version=v11",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
       "authorization_endpoint": "https://esignet.ltsstaging.fayda.et/authorize",
-      "authorization_audience": "https://${mosip.esignet.host}/v1/esignet/oauth/v2/token",
+      "authorization_audience": "https://esignet.ltsstaging.fayda.et/v1/esignet/oauth/v2/token",
       "token_endpoint": "https://api-internal.ltsstaging.fayda.et/v1/mimoto/get-token/ESignet",
       "proxy_token_endpoint": "https://esignet.ltsstaging.fayda.et/v1/esignet/oauth/v2/token",
       "credential_endpoint": "https://esignet.ltsstaging.fayda.et/v1/esignet/vci/credential",
